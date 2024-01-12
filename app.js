@@ -14,7 +14,7 @@ onerror(app)
 
 // 中间件
 app.use(bodyparser({
-	enableTypes: ['josn', 'form', 'text']
+	enableTypes: ['json', 'form', 'text']
 }))
 
 app.use(json())
